@@ -7,6 +7,7 @@ import { BlablaComponent } from './blabla/blabla.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
     HeroesComponent,
     BlablaComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,

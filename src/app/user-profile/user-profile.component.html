@@ -1,0 +1,11 @@
+<h1>User-Profile</h1>
+<img [src]="User.photo" [alt]="User.firstName">
+<h2>Nom: {{User.name}}</h2>
+<h2>Prénom: {{User.firstName}}</h2>
+<div>
+  <p id="lage">{{User.age}}</p>
+</div>
+<p>"{{User.quote}}"</p>
+<input [(ngModel)]="User.quote">
+<button (click)="direBonjour()">Salut à tous</button>
+<button (click)="amage()">Afficher/Masquer l'âge</button>
